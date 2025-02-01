@@ -1,7 +1,7 @@
 # PL2025-A104350
 TPC's da UC Processamento de Linguagens 
 ## Autor
-![bart](../bart.png){width=90 height=90}
+![bart|180x180](upload://u7xIMz7O3AcynJgAJPJuCFsAkEA.png)
 - **Nome:** Gonçalo Freitas  
 - **Número:** a104350
 
