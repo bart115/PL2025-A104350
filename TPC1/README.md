@@ -51,6 +51,9 @@ A solução consiste em:
 - Exibição dos resultados parciais e finais
 - Método eficiente de leitura da entrada completa
 
+## Lista de Resultados
+- [Resolução](tpc1.py)
+- [Texto de teste](texto)
 O programa final é capaz de processar textos de qualquer tamanho, seguindo todas as regras especificadas, e produz a saída no formato correto. 
 
 
