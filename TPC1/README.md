@@ -53,7 +53,7 @@ A solução consiste em:
 
 ## Lista de Resultados
 - [Resolução](tpc1.py)
-- [Texto de teste](texto)
+- [Texto de teste](texto_de_texte.py)
 O programa final é capaz de processar textos de qualquer tamanho, seguindo todas as regras especificadas, e produz a saída no formato correto. 
 
 
