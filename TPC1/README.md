@@ -36,7 +36,7 @@ Após testar a primeira versão, identifiquei problemas na lógica de processame
 Observei um problema com a leitura da entrada padrão: o programa continuava a esperar por mais entradas após o usuário terminar de inserir o texto por isso mudei mais uma vez a implementação para usar `sys.stdin.read()`, o que permite ler toda a entrada de uma vez e encerrar corretamente quando o usuário sinaliza o fim da entrada (EOF).
 
 ### 5. Testes Finais
-Testei o programa com o exemplo fornecido e verifiquei que a saída correspondia exatamente ao esperado, para testar o programa é necessário escrever ou copiar a string que queremos que seja processada depois clicar em Enter, Ctrl + Z e depois Enter denovo, ao testar conseguimos verificar que as seguintes regras foram realizadas com sucesso. 
+Testei o programa com o exemplo fornecido e verifiquei que a saída correspondia exatamente ao esperado, para **testar** o programa é necessário escrever ou copiar a string que queremos que seja processada depois clicar em Enter, Ctrl + Z e depois Enter denovo no caso do windows em caso de linux devemos clicar em Enter e depois Cntr + D , ao testar conseguimos verificar que as seguintes regras foram realizadas com sucesso. 
 - Soma de números (quando ativada)
 - Controle de estado via "On"/"Off"
 - Exibição parcial em "="
