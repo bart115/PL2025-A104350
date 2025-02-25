@@ -6,11 +6,19 @@ def parse_obras_csv(file_path):
         data = file.read()
 
     # Regular expression to match the pattern of the CSV fields
-    pattern = re.compile(r'(?P<nome>[^\n;]+);(?P<desc>\".*?\"|[^;]+);(?P<anoCriacao>\d+);(?P<periodo>[^;]+);(?P<compositor>[^;]+);(?P<duracao>\d{2}:\d{2}:\d{2});(?P<_id>O\d+)')
-    
+    pattern = re.compile(
+        r'(?P<nome>[^\n;]+);'  # Nome
+        r'(?P<desc>"(?:[^"]|"")*"|[^;]+);'  # Descrição
+        r'(?P<anoCriacao>\d+);'  # Ano de Criação
+        r'(?P<periodo>[^;]+);'  # Período
+        r'(?P<compositor>[^;]+);'  # Compositor
+        r'(?P<duracao>\d{2}:\d{2}:\d{2});'  # Duração
+        r'(?P<_id>O\d+)'  # ID
+    )
+
     # Find all matches in the data
     matches = pattern.finditer(data)
-    
+
     # Parse the matches into a list of dictionaries
     parsed_data = []
     for match in matches:
@@ -18,8 +26,9 @@ def parse_obras_csv(file_path):
         # Clean up the 'nome' field to remove unwanted newlines and leading/trailing spaces
         entry['nome'] = entry['nome'].strip()
         parsed_data.append(entry)
-    
+
     return parsed_data
+
 
 def get_sorted_composers(file_path):
     # Parse the CSV to get the data
