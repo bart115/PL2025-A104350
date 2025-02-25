@@ -30,7 +30,7 @@ Desenvolvi uma primeira versão do programa que lia os dados do ficheiro, proces
 Após testar a primeira versão, identifiquei problemas na lógica de processamento dos dados e na manipulação das listas. Refinei o algoritmo para garantir que todas as regras fossem seguidas corretamente.
 
 ### 4. Otimização da Leitura de Dados
-Observei um problema com a leitura dos dados do ficheiro: o programa não estava lidando corretamente com diferentes formatos de entrada. Ajustei a implementação para garantir a correta leitura e processamento dos dados.
+Observei um problema com a leitura dos dados do ficheiro: o programa não estava a lidar corretamente com diferentes formatos de entrada. Ajustei a implementação para garantir a correta leitura e processamento dos dados.
 
 ### 5. Testes Finais
 Testei o programa com o ficheiro obras.csv e verifiquei que a saída correspondia exatamente ao esperado. As seguintes funcionalidades foram realizadas com sucesso:
